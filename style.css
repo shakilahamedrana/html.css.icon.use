@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+ 
+ .menu{
+    background-color: black;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.menu ul li a{
+    color: red;
+    padding: 10px 20px;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+
+}
+.menu ul li a:hover{
+    color: rgb(63, 239, 4);
+    background-color: rgb(51, 13, 222);
+}
+
+.baba{
+    display: flex;
+    justify-content:space-around;
+}
+.sele{
+    width: 45%;
+    background-color: chocolate;
+    padding: 10px;
+    box-sizing:border-box;
+}
+.maye{
+    width: 50%;
+    background-color: chartreuse;
+    padding: 10px;
+    box-sizing:border-box;
+}
+
+.team-section{
+    background: yellow;
+    padding: 50px 0;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 35px;
+}
+.section-title h2{
+    font-size: 35px;
+}
+.team-members{
+    display: flex;
+    justify-content: space-between;
+}
+.member{
+    width: 24%;
+}
+.member img{
+    width: 100%;
+}
+.member h4{}
+
+.box{
+    height:350px;
+    width: 600px; 
+    background-color: cyan;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.inner-box-1{
+    background-color:rgb(241, 5, 241) ;
+    color: beige;
+    width: 100px;
+    height: 100px; 
+    margin: 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.inner-box-1 span{
+    font-size: 25px; 
+}
+.inner-box-2 span{
+    font-size: 25px; 
+
+}
+.inner-box-2{
+    background: rgb(63, 239, 4);
+    color: aliceblue;
+    width: 120px;
+    height: 100px;
+    margin: 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
